@@ -1,0 +1,16 @@
+Employee Name,Travel Date,Trip Type,Origin,Destination,Distance (km),Cabin Class,Vendor,Nights,Currency,Amount,Cost Center,Country
+Rahul Sharma,2024-01-08,Air,DEL,BOM,1400,Economy,IndiGo,,INR,6500,CC-SALES,IN
+Priya Mehta,2024-01-10,Air,BOM,LHR,7200,Economy,Air India,,INR,45000,CC-MGMT,IN
+Amit Kumar,2024-01-12,Air,DEL,JFK,12000,Business,Air India,,INR,180000,CC-EXEC,IN
+Rahul Sharma,2024-01-08,Hotel,,,,,,3,INR,9000,CC-SALES,IN
+Priya Mehta,2024-01-10,Hotel,,,,,,7,INR,35000,CC-MGMT,IN
+Vikram Singh,2024-01-15,Car Rental,DEL,,,450,,,,INR,8000,CC-OPS,IN
+Sonia Gupta,2024-01-18,Taxi,BLR,,,85,,,INR,1200,CC-HR,IN
+Amit Kumar,2024-01-14,Rail,DEL,BOM,1400,,,,,INR,2000,CC-EXEC,IN
+Neha Verma,2024-01-20,Air,BLR,MAA,370,Economy,IndiGo,,INR,4200,CC-TECH,IN
+Vikram Singh,2024-01-15,Hotel,,,,,,2,INR,6000,CC-OPS,IN
+Rahul Sharma,2024-01-22,Air,BOM,BLR,985,Economy,IndiGo,,INR,5500,CC-SALES,IN
+Priya Mehta,2024-01-25,Air,LHR,CDG,340,Business,British Airways,,GBP,450,CC-MGMT,IN
+Amit Kumar,2024-01-30,Air,JFK,DEL,12000,Business,Air India,,INR,195000,CC-EXEC,IN
+Neha Verma,2024-01-28,Taxi,DEL,,,62,,,INR,900,CC-TECH,IN
+Sonia Gupta,2024-02-02,Air,HYD,DEL,1260,Economy,SpiceJet,,INR,5800,CC-HR,IN

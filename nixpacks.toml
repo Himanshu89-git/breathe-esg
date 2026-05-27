@@ -1,0 +1,15 @@
+[phases.setup]
+nixPkgs = ["python311", "postgresql"]
+
+[phases.install]
+cmds = ["pip install -r backend/requirements.txt"]
+
+[phases.build]
+cmds = [
+  "cd backend && python manage.py collectstatic --no-input",
+  "cd backend && python manage.py migrate",
+  "cd backend && python manage.py seed"
+]
+
+[start]
+cmd = "cd backend && gunicorn breathe_esg.wsgi --bind 0.0.0.0:$PORT --workers 2 --timeout 120"
